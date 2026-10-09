@@ -1,0 +1,36 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.python-version
+
+# Kredensial & konfigurasi lokal
+.env
+.env.*
+
+# Cache model / Hugging Face
+.cache/
+hf_cache/
+
+# Neo4j lokal (database, log, plugin)
+neo4j/data/
+neo4j/logs/
+neo4j/plugins/
+
+# Office (file lock saat dokumen terbuka)
+~$*
+
+# Editor & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Hasil graphify
+graphify-out/
